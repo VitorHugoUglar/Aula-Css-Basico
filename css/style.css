@@ -1,21 +1,32 @@
 body{
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-padding: 0;
-background-color: gray;
+    font-family: Arial, Helvetica, sans-serif; /* fonte */
+    margin: 0; /* Margem*/
+    padding: 0; /* Espacamentos dos textos */
+    background-color: gray; /* Cor de fundo*/
 }
 .container{
-
-
+    display: flex; /* possicao das divs Flex = movivel, Block = travado*/
+    flex-wrap: wrap; /* Empede a sobreposicao*/
+    justify-content: space-around; /* Espaco ao redor das divs*/
+    margin-top: 15px; /* Margem da distancia das divs */
 }
+
 .profissoes{
-
-
+    margin: 20px; /* margem entre as div*/
+    background-color: cyan; /* cor de fundo */
+    border: 5px double rgb(110, 109, 109); /* Borda */
+    border-radius: 30px; /* Arredondar Bordas */
+    padding: 5px; /* Espacamento dos espacos */
+    box-shadow: 0px 0px 20px black; /* Sombra da div */
+    width: 27%;
+    text-align: center;
 }
+
 h1{
-
-
+    font-family: 'Courier New', Courier, monospace; /* Fonte */
+    text-align: center; /* Alinhar o texto */
 }
+
 nav {
     background-color: #333;
     color: white;
