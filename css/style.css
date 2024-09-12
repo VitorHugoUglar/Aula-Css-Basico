@@ -46,7 +46,7 @@ li {
 
 a {
     text-decoration: none; /* Decoracao de texto */
-    color: white; /*Cor do texto*/
+    color: rgb(255, 0, 0); /*Cor do texto*/
 }
 
 a:hover {
